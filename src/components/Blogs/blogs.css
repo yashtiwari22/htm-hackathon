@@ -1,0 +1,101 @@
+.blogOuterContainer {
+  height: 600px;
+  background: #f5f7f4;
+}
+.blog-image-div {
+  position: absolute;
+  width: 370.19px;
+  height: 404.45px;
+
+}
+.blog-image {
+  width: 100%;
+  height: 100%;
+}
+.blogsHeading {
+  position: relative;
+  top: 120px;
+  left: 300px;
+  width: 30%;
+}
+.blogsSubHeading {
+  display: flex;
+}
+.line {
+  width: 36px;
+  border: 1px solid #2EB872;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 5px;
+}
+.blogs {
+  position: relative;
+  top: 190px;
+  left: 300px;
+}
+
+.slick-slider {
+  width: 1900px !important;
+}
+.slick-slider .slick-prev {
+  display: none !important;
+}
+.slick-slider .slick-next {
+  display: none !important;
+}
+.slick-slider .slick-dots {
+  top: -45px !important;
+  bottom: 490px !important;
+  right: 100px !important;
+  width: 1000px !important;
+}
+.card-wrapper {
+  width: 100% !important;
+}
+.card {
+  width: 300px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+.card-image{
+  width: 100%;
+}
+.card-image :hover{
+    opacity:0.8;
+    transition: 1s;
+}
+.card-image :hover{
+    transform: translateY(-100px);
+    transition: all .9s;
+    object-fit: cover;
+}
+.cardImage {
+  width: 100%;
+}
+.card .detail {
+ position: relative;
+ bottom:100px;
+  left:0;
+  background:#2EB872;
+  height:100px;
+  display: block;
+  z-index:-1;
+  padding: 10px;
+  transition: .6s;
+}
+.detail h2{
+    margin:2px 0;
+    padding:0;
+    color:#fff;
+    font-size: 32px;
+    text-align:center;
+
+}
+.blog-detail{
+    font-size: 16px;
+    line-height:2;
+    color:#fff;
+    font-weight: 300;
+    display: block;
+}

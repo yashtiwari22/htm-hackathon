@@ -1,0 +1,54 @@
+.issuesOuterContainer {
+  height: 500px;
+}
+
+.issuesHeading {
+  position: relative;
+  top: 100px;
+  left: 300px;
+  width:40%;
+}
+.issuesSubHeading {
+  display: flex;
+}
+.line {
+  width: 36px;
+  border: 1px solid #2eb872;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 5px;
+}
+.iss {
+  position: relative;
+  top: 140px;
+  left:100px;
+}
+
+.slick-slider {
+  width: 1900px !important;
+}
+.slick-slider .slick-prev {
+  display: none !important;
+}
+.slick-slider .slick-next {
+  display: none !important;
+}
+.slick-slider .slick-dots {
+  top: -45px !important;
+  bottom: 490px !important;
+}
+.card-wrapper {
+  width: 100% !important;
+}
+.card {
+  width: 300px;
+}
+.card-image {
+  width: 100%;
+}
+.cardImage {
+  width: 100%;
+}
+.details {
+  width: 100%;
+}
